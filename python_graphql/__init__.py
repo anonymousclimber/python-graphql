@@ -15,4 +15,4 @@ db = SQLAlchemy(app)
 
 @app.route('/')
 def hello():
-    return 'GRAPHQL API'
+    return 'Test'

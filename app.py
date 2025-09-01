@@ -1,1 +1,2 @@
-from python_graphql import app
+from python_graphql import app, db
+from python_graphql import models
