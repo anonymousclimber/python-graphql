@@ -11,6 +11,7 @@ flask = "^3.1.2"
 ariadne = "^0.26.2"
 flask-sqlalchemy = "^3.1.1"
 flask-cors = "^6.0.1"
+psycopg2 = "^2.9.10"
 
 
 [build-system]
