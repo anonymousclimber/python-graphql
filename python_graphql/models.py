@@ -6,6 +6,7 @@ class Post(db.Model):
     description = db.Column(db.String)
     created_at = db.Column(db.Date)
     def to_dict(self):
+        print("In to dict method")
         return {
             "id": self.id,
             "title": self.title,
